@@ -1,0 +1,14 @@
+#!/bin/bash
+# This hook is sourced after this virtualenv is activated.
+
+export SECRET_KEY=''
+
+export DJANGO_SETTINGS_MODULE=settings.production|staging|local
+
+export DB_NAME=''
+export DB_USERNAME=''
+export DB_PASSWORD=''
+export DB_HOST=''
+export DB_PORT=''
+
+export EMAIL_HOST_PASSWORD=''
