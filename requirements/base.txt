@@ -1,2 +1,3 @@
 django
+django-extensions
 Sphinx==1.3.1
